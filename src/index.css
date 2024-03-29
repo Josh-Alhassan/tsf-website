@@ -1,6 +1,7 @@
-html,
-body {
-  max-width: 1440px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: var(--background-color);
+  color: var(--primary-50);
 }
 
 code {
@@ -29,10 +31,13 @@ code {
   --primary-300: #66adfd;
   --primary-400: #3391fd;
   --primary-500: #0076fc;
+  --primary-500-alt: rgba(0, 118, 254, 0.51);
   --primary-600: #005fcc;
   --primary-700: #004799;
   --primary-800: #002f66;
   --primary-900: #001833;
+
+  --box-border--border: linear-gradient(#050517, #0076fc, #102595, #050517);
 
   /* TEXT FONT SIZES */
   --display-1: 61px;
