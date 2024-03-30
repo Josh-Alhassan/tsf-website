@@ -6,8 +6,7 @@ import "./Header.css";
 import asset1 from "../assets/img-1.png";
 import starRating from "../utilities/Star-2.svg";
 import starGroupRate from "../utilities/Group -8.svg";
-import elipse9 from "../utilities/ellipse-9.svg";
-import elipse10 from "../utilities/elipse-10.svg";
+import lightGlow from "../utilities/Light-Glow.svg";
 
 function Header() {
   return (
@@ -58,10 +57,7 @@ function Header() {
       </div>
 
       {/* Out of Page Flow Elements */}
-      {/* <div className="elipse-shape-container">
-        
-        <img src={elipse10} alt="10th Elipse Shape" />
-      </div> */}
+      {/* <img className="light-glow" src={lightGlow} alt="Light Glow" /> */}
     </div>
   );
 }

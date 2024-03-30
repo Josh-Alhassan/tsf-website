@@ -115,17 +115,13 @@
 }
 
 /* Elipse Shape Style */
-.elipse-shape-container {
+
+.light-glow {
+  width: 82.5%;
   position: absolute;
-  top: 505px;
+  top: 50px;
 
-  overflow-x: hidden;
-}
-
-.elipse-9 {
-  position: relative;
-  top: 400px;
-  z-index: -10;
+  z-index: 10;
 }
 
 /* =================== */
@@ -194,6 +190,10 @@
   .header__trader-support-funds {
     width: 90%;
   }
+
+  .light-glow {
+    top: -10px;
+  }
 }
 
 @media screen and (max-width: 1056px) {
@@ -215,6 +215,11 @@
   .header__typographies {
     padding-top: 80px;
   }
+
+  .elipse-shape-container > img {
+    top: 450px;
+    left: 170px;
+  }
 }
 
 @media screen and (max-width: 946px) {
@@ -224,6 +229,11 @@
   .header__image {
     width: 300px;
     height: 335px;
+  }
+
+  .elipse-shape-container > img {
+    top: 400px;
+    left: 170px;
   }
 }
 
@@ -251,9 +261,14 @@
     width: 400px;
     height: 450px;
   }
+
+  .elipse-shape-container > img {
+    top: 650px;
+    left: 170px;
+  }
 }
 
-@media screen and (max-width: 895px) {
+@media screen and (max-width: 869px) {
   .header__heading {
     font-size: var(--display-2);
   }
@@ -277,6 +292,11 @@
 
   .tsf-heading__primary {
     margin-right: 30px;
+  }
+
+  .elipse-shape-container > img {
+    top: 700px;
+    left: 170px;
   }
 }
 
@@ -338,6 +358,11 @@
   .header__heading {
     font-size: var(--display-2);
   }
+
+  .elipse-shape-container > img {
+    top: 700px;
+    left: 100px;
+  }
 }
 
 @media screen and (max-width: 588px) {
@@ -352,6 +377,19 @@
 
   .header__paragraph {
     font-size: var(--paragraph-2);
+  }
+
+  .elipse-shape-container > img {
+    top: 650px;
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .elipse-shape-container > img {
+    top: 680px;
+    left: 70px;
+    width: 80%;
   }
 }
 
@@ -370,10 +408,32 @@
   } */
 }
 
+@media screen and (max-width: 418px) {
+  .tsf-heading__primary {
+    font-size: var(--paragraph-1);
+  }
+
+  .tsf-heading__secondary--heading {
+    font-size: var(--paragraph-2);
+  }
+
+  .tsf-heading__secondary--paragraph {
+    font-size: var(--paragraph-3);
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .elipse-shape-container > img {
+    top: 700px;
+    left: 50px;
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header__image {
-    width: 300px;
-    height: 325px;
+    width: 250px;
+    height: 275px;
   }
 
   .header__paragraph {
@@ -386,5 +446,11 @@
 
   .tsf-heading__secondary--paragraph {
     font-size: var(--paragraph-3);
+  }
+
+  .elipse-shape-container > img {
+    top: 610px;
+    left: 50px;
+    width: 80%;
   }
 }
