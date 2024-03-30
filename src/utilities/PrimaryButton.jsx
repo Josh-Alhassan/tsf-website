@@ -9,7 +9,7 @@ function PrimaryButton({ text, svg }) {
         {text}
       </a>
 
-      <img src={svg} alt="svg arrow icon" />
+      <img className="primary-arr-btn" src={svg} alt="svg arrow icon" />
     </div>
   );
 }

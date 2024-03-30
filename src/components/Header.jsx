@@ -14,21 +14,24 @@ function Header() {
     <div className="section__padding header">
       <div className="header__container">
         <div className="header__typographies">
-          <h1 className="header__heading">Trade with trust and Security</h1>
+          <h1 className="header__heading">
+            Trade with trust <br />
+            and Security
+          </h1>
           <p className="header__paragraph">
             Most effective way to be a profitable forex trader, Trade up to
             $200k funded account to earn as much as 90% profit split with 125%
             refundable fee only at Trader Support Funds
           </p>
         </div>
-        <div className="header__image">
-          <img src={asset1} alt="Trade Signal" />
-        </div>
+        <img className="header__image" src={asset1} alt="Trade Signal" />
       </div>
 
       <div className="header__trader-support-funds">
         {/* First Container */}
-        <div className="tsf-heading__primary">Trader Support Funds</div>
+        <div className="tsf-heading__primary">
+          Trader <br /> Support <br /> Funds
+        </div>
 
         {/* Second Container */}
         <div className="tsf-heading__secondary">
@@ -55,10 +58,10 @@ function Header() {
       </div>
 
       {/* Out of Page Flow Elements */}
-      <div className="elipse-shape-container">
-        {/* <img className="elipse-9" src={elipse9} alt="Ninth Elipse shape" /> */}
+      {/* <div className="elipse-shape-container">
+        
         <img src={elipse10} alt="10th Elipse Shape" />
-      </div>
+      </div> */}
     </div>
   );
 }

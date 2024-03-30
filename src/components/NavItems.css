@@ -1,3 +1,8 @@
+.tsf-logo {
+  width: 72px;
+  height: 38px;
+}
+
 .nav-items {
   padding: 52px 100px;
 
@@ -13,6 +18,8 @@
 .nav-menus > ul {
   display: flex;
   gap: 32px;
+
+  font-size: var(--paragraph-2);
 
   padding: 10px 20px;
   border: 1px solid transparent;
@@ -44,3 +51,34 @@
       #050517 100%,
       #f2f8ff
     ); */
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+  .nav-menus > ul {
+    font-size: var(--paragraph-3);
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .nav-menus {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .nav-items {
+    padding: 50px 75px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .nav-items {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 588px) {
+  .nav-items {
+    padding: 25px 50px;
+  }
+}

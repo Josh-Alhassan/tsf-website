@@ -22,3 +22,21 @@
   font-style: normal;
   font-weight: 700;
 }
+
+.primary-arr-btn {
+  width: 16px;
+  height: 16px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+  .primary-button__link {
+    font-size: var(--paragraph-3);
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .primary-button {
+    display: none;
+  }
+}

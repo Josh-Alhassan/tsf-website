@@ -14,7 +14,7 @@ function NavItems() {
 
   return (
     <div className="nav-items">
-      <img src={Logo} alt="TSF Brand" />
+      <img className="tsf-logo" src={Logo} alt="TSF Brand" />
 
       <nav className="nav-menus">
         <ul>

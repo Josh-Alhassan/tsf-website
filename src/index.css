@@ -53,5 +53,17 @@ code {
 }
 
 .section__padding {
-  padding: 0 150px;
+  padding: 0 100px;
+}
+
+@media screen and (max-width: 895px) {
+  .section__padding {
+    padding: 0 75px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .section__padding {
+    padding: 0 50px;
+  }
 }

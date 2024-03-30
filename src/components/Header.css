@@ -19,7 +19,7 @@
   flex-direction: column;
   gap: 24px;
 
-  padding-top: 180px;
+  padding-top: 145px;
 }
 
 .header__heading {
@@ -43,12 +43,10 @@
   height: 608px;
 }
 
-.header__image > img {
+/* .header__image > img {
   background-size: cover;
   mix-blend-mode: plus-lighter;
-  /* width: 100%;
-  height: 100%; */
-}
+} */
 
 .header__trader-support-funds {
   width: 70%;
@@ -68,6 +66,7 @@
   font-weight: 700;
   line-height: 108%; /* 22.869px */
   letter-spacing: -0.423px;
+  margin-right: 50px;
 }
 
 .tsf-heading__secondary {
@@ -119,10 +118,273 @@
 .elipse-shape-container {
   position: absolute;
   top: 505px;
+
+  overflow-x: hidden;
 }
 
 .elipse-9 {
   position: relative;
   top: 400px;
   z-index: -10;
+}
+
+/* =================== */
+/* Media Queries */
+/* =================== */
+
+@media screen and (max-width: 1283px) {
+  .header__heading {
+    font-size: var(--display-1);
+  }
+}
+
+@media screen and (max-width: 1231px) {
+  /* .header__heading {
+    font-size: var(--display-2);
+  } */
+  /* .header__paragraph {
+    font-size: var(--paragraph-2);
+  } */
+
+  .header__image {
+    width: 500px;
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 1231px) {
+  .header__trader-support-funds {
+    width: 75%;
+  }
+
+  .tsf-heading__secondary {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1183px) {
+  .header__heading {
+    font-size: var(--display-2);
+  }
+  .header__typographies {
+    padding-top: 110px;
+  }
+
+  .header__image {
+    width: 450px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1155px) {
+  .header__trader-support-funds {
+    width: 85%;
+  }
+  .tsf-heading__secondary--paragraph {
+    font-size: var(--paragraph-2);
+  }
+}
+
+@media screen and (max-width: 1104px) {
+  .header__image {
+    width: 400px;
+    height: 450px;
+  }
+
+  .header__trader-support-funds {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1056px) {
+  .header__paragraph {
+    font-size: var(--paragraph-2);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header__heading {
+    font-size: var(--display-3);
+  }
+
+  .header__image {
+    width: 350px;
+    height: 400px;
+  }
+
+  .header__typographies {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 946px) {
+  /* .header__paragraph {
+    font-size: var(--paragraph-3);
+  } */
+  .header__image {
+    width: 300px;
+    height: 335px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .header__container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__heading,
+  .header__paragraph {
+    text-align: center;
+  }
+
+  .header__heading {
+    font-size: var(--display-1);
+  }
+
+  .header__paragraph {
+    font-size: var(--paragraph-1);
+  }
+
+  .header__image {
+    width: 400px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .header__heading {
+    font-size: var(--display-2);
+  }
+
+  .header__typographies {
+    padding-top: 20px;
+  }
+
+  .header__image {
+    width: 400px;
+    height: 425px;
+  }
+
+  .tsf-heading__secondary--heading {
+    font-size: var(--paragraph-2);
+  }
+
+  .tsf-heading__secondary--paragraph {
+    font-size: var(--paragraph-3);
+  }
+
+  .tsf-heading__primary {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__trader-support-funds {
+    /* background: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 20px;
+
+    width: 100%;
+
+    padding: 25px 35px;
+
+    justify-tracks: center;
+  }
+
+  .tsf-heading__primary {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    margin-right: 0;
+  }
+
+  .tsf-trust__pilot-rating {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .tsf-heading__secondary {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+
+    margin-right: 0;
+  }
+
+  .tsf-heading__secondary--heading,
+  .tsf-heading__secondary--paragraph {
+    text-align: center;
+  }
+
+  .tsf-heading__secondary--heading {
+    font-size: var(--paragraph-1);
+  }
+
+  .tsf-heading__secondary--paragraph {
+    font-size: var(--paragraph-2);
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .header__image {
+    width: 350px;
+    height: 375px;
+  }
+
+  .header__heading {
+    font-size: var(--display-2);
+  }
+}
+
+@media screen and (max-width: 588px) {
+  .header__image {
+    width: 350px;
+    height: 325px;
+  }
+
+  .header__heading {
+    font-size: var(--display-3);
+  }
+
+  .header__paragraph {
+    font-size: var(--paragraph-2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__image {
+    width: 350px;
+    height: 350px;
+  }
+
+  .header__heading {
+    font-size: var(--heading-1);
+  }
+
+  /* .header__trader-support-funds {
+    width: 100%;
+  } */
+}
+
+@media screen and (max-width: 375px) {
+  .header__image {
+    width: 300px;
+    height: 325px;
+  }
+
+  .header__paragraph {
+    font-size: var(--paragraph-3);
+  }
+
+  .tsf-heading__secondary--heading {
+    font-size: var(--paragraph-2);
+  }
+
+  .tsf-heading__secondary--paragraph {
+    font-size: var(--paragraph-3);
+  }
 }
