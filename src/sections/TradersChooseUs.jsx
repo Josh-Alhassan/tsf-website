@@ -25,7 +25,7 @@ function TradersChooseUs() {
 
       {/* Why Traders Grid */}
       <div className="traders__grid">
-        <div className="trader__grid-item grid-item--border">
+        <div className="trader__grid-item grid-item--border border-left">
           <img src={accountManager} alt="Account Manager Icon" />
           <h2 className="trader-item__title">Account Manager</h2>
           <p className="trader-item__description">
@@ -42,8 +42,8 @@ function TradersChooseUs() {
             strategy proves successful. Risk none of your capital no more.
           </p>
         </div>
-        <div className="trader__grid-item">
-          <img src={customerSupport} alt="Our Capital your profit Icon" />
+        <div className="trader__grid-item border-left">
+          <img src={customerSupport} alt="Customer support Icon" />
           <h2 className="trader-item__title">Customer Support</h2>
           <p className="trader-item__description">
             Our traders have free access to communicate with us, is as easy as
@@ -52,15 +52,15 @@ function TradersChooseUs() {
           </p>
         </div>
         <div className="trader__grid-item grid-item--border">
-          <img src={tradeStyle} alt="Our Capital your profit Icon" />
+          <img src={tradeStyle} alt="Trade Style Icon" />
           <h2 className="trader-item__title">Free Trade Style</h2>
           <p className="trader-item__description">
             No trading styles is limited. we designed a system SO-ESSY, all for
             your comfort and styles.
           </p>
         </div>
-        <div className="trader__grid-item grid-item--border">
-          <img src={ourCapital} alt="Our Capital your profit Icon" />
+        <div className="trader__grid-item grid-item--border border-left">
+          <img src={tradingPlatform} alt="Trade Platform Icon" />
           <h2 className="trader-item__title">No.1 Trading Platform</h2>
           <p className="trader-item__description">
             Our platform is built on MetaTrader 4/5 which gives you opportunity
@@ -68,7 +68,7 @@ function TradersChooseUs() {
           </p>
         </div>
         <div className="trader__grid-item">
-          <img src={customerSupport} alt="Our Capital your profit Icon" />
+          <img src={oneTimeFee} alt="One Time Fee Icon" />
           <h2 className="trader-item__title">One-time Fee</h2>
           <p className="trader-item__description">
             o extra charge or monthly fees after you successfully reached to a
