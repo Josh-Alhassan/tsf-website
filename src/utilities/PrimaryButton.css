@@ -15,6 +15,11 @@
   align-items: center;
 }
 
+.primary-button:hover {
+  background: none;
+  border: 1.5px solid var(--Blue-Gradient, #0076fc);
+}
+
 .primary-button__link {
   color: var(--primary-50);
   text-decoration: none;
