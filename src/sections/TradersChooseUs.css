@@ -2,7 +2,13 @@
   padding-top: 118px;
   padding-bottom: 118px;
 
-  background-color: var(--traders-choose-us);
+  /* background-color: var(--traders-choose-us); */
+  background: linear-gradient(
+    to top,
+    rgba(40, 44, 96, 0.336),
+    rgb(2, 2, 18),
+    rgba(41, 45, 97, 0.164)
+  );
 }
 
 .traders__header {

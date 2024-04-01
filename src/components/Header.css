@@ -275,6 +275,7 @@
 
   .header__typographies {
     padding-top: 20px;
+    align-items: center;
   }
 
   .header__image {
@@ -376,7 +377,7 @@
   }
 
   .header__paragraph {
-    font-size: var(--paragraph-2);
+    font-size: var(--paragraph-1);
   }
 
   .elipse-shape-container > img {
@@ -401,6 +402,7 @@
 
   .header__heading {
     font-size: var(--heading-1);
+    margin-bottom: 15px;
   }
 
   /* .header__trader-support-funds {
