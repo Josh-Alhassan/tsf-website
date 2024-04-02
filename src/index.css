@@ -69,3 +69,11 @@ code {
     padding: 0 50px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .section__padding {
+    padding: 0 30px;
+  }
+}
+
+/* padding: 0 30px; */

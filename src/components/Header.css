@@ -342,11 +342,11 @@
   }
 
   .tsf-heading__secondary--heading {
-    font-size: var(--paragraph-1);
+    font-size: var(--paragraph-2);
   }
 
   .tsf-heading__secondary--paragraph {
-    font-size: var(--paragraph-2);
+    font-size: var(--paragraph-3);
   }
 }
 
@@ -405,6 +405,10 @@
     margin-bottom: 15px;
   }
 
+  .header__paragraph {
+    font-size: var(--paragraph-2);
+  }
+
   /* .header__trader-support-funds {
     width: 100%;
   } */
@@ -434,8 +438,8 @@
 
 @media screen and (max-width: 375px) {
   .header__image {
-    width: 250px;
-    height: 275px;
+    width: 100%;
+    height: 100%;
   }
 
   .header__paragraph {

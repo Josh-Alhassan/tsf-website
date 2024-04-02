@@ -81,7 +81,7 @@
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   .trader__heading {
-    font-size: var(--heading-1);
+    font-size: var(--heading-2);
   }
   .traders__paragraph {
     width: 70%;
@@ -127,5 +127,16 @@
   .traders__paragraph {
     width: 100%;
     font-size: var(--paragraph-1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .trader__heading {
+    font-size: var(--heading-3);
+  }
+
+  .traders__paragraph {
+    width: 100%;
+    font-size: var(--paragraph-2);
   }
 }
