@@ -54,6 +54,10 @@ code {
   --paragraph-3: 10px;
 }
 
+ul {
+  list-style: none;
+}
+
 .section__padding {
   padding: 0 100px;
 }
