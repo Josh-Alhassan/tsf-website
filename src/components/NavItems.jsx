@@ -54,9 +54,8 @@ function NavItems() {
             </a>
           </li>
         </ul>
+        <PrimaryButton text={btnLabel} svg={rightArrow} />
       </nav>
-
-      <PrimaryButton text={btnLabel} svg={rightArrow} />
     </div>
   );
 }

@@ -39,6 +39,20 @@ function DirectFundedAccount() {
           className="direct-founded-account__wrapper--arr"
         />
       </div>
+
+      {/* Out of flow of page */}
+      <div className="direct-founded-account__mobile-btns">
+        <img
+          src={leftArrow}
+          alt="Left Arrow"
+          className="direct-founded-account__wrapper--btn"
+        />
+        <img
+          src={rightArrow}
+          alt=""
+          className="direct-founded-account__wrapper--btn"
+        />
+      </div>
     </div>
   );
 }
