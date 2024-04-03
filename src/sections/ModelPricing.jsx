@@ -3,6 +3,7 @@ import React from "react";
 import linearLine from "../utilities/Line-4.svg";
 
 import "./ModelPricing.css";
+import DirectFundedAccount from "../components/DirectFundedAccount";
 
 function ModelPricing() {
   return (
@@ -52,6 +53,9 @@ function ModelPricing() {
 
       {/* MOdel Pricing Tiers */}
       <div className="model-pricing__tiers">MODEL PRICING TIERS</div>
+
+      {/* COMPONENTS */}
+      <DirectFundedAccount />
     </div>
   );
 }
