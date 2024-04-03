@@ -6,7 +6,8 @@ import "./Header.css";
 import asset1 from "../assets/img-1.png";
 import starRating from "../utilities/Star-2.svg";
 import starGroupRate from "../utilities/Group -8.svg";
-import lightGlow from "../utilities/Light-Glow.svg";
+import lightGlow from "../assets/Light-Glow.png";
+import lightGlowMobile from "../assets/Light-Glow-mobile.png";
 
 function Header() {
   return (
@@ -57,7 +58,8 @@ function Header() {
       </div>
 
       {/* Out of Page Flow Elements */}
-      {/* <img className="light-glow" src={lightGlow} alt="Light Glow" /> */}
+      <img className="light-glow" src={lightGlow} alt="Light Glow" />
+      <img src={lightGlowMobile} alt="" className="light-glow-mobile" />
     </div>
   );
 }

@@ -79,6 +79,11 @@
 }
 
 /* Media query for smaller screens */
+@media screen and (max-width: 1024px) {
+  .traders__paragraph {
+    width: 80%;
+  }
+}
 @media screen and (max-width: 768px) {
   .trader__heading {
     font-size: var(--heading-2);
