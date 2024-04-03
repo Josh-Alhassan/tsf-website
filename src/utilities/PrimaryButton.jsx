@@ -5,9 +5,9 @@ import "./PrimaryButton.css";
 function PrimaryButton({ text, svg, url }) {
   return (
     <>
-      <a className="primary-button__link" href={url}>
+      <a href={url} className="tsf-typography__cta">
         {text}
-        <img className="primary-arr-btn" src={svg} alt="svg arrow icon" />
+        {svg}
       </a>
     </>
   );

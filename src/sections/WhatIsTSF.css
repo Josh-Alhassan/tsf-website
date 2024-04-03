@@ -29,42 +29,6 @@
   line-height: 168%; /* 26.88px */
 }
 
-.tsf-typography__cta {
-  width: 135px;
-
-  text-decoration: none;
-  color: var(--primary-50);
-
-  /* display: inline-block; */
-  height: 48px;
-  padding: 20px;
-  background-color: orange;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-
-  border-radius: 101px;
-  border: 1.5px solid rgba(0, 118, 254, 0.51);
-  background: var(
-    --Blue-Gradient,
-    linear-gradient(165deg, #0076fc 53.16%, #102595 168.45%)
-  );
-  box-shadow: 0px 15px 19.3px 0px rgba(0, 95, 204, 0.13);
-
-  font-size: var(--paragraph-2);
-  font-weight: 700;
-  line-height: normal;
-
-  transition: all 0.2 ease-in-out;
-}
-
-.tsf-typography__cta:hover {
-  background: none;
-  border: 1.5px solid var(--Blue-Gradient, #0076fc);
-}
-
 .what-is-tsf__img {
   width: 413px;
   height: 315px;
