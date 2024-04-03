@@ -34,6 +34,8 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  margin-bottom: 60px;
 }
 
 .direct-founded-account__heading {
@@ -54,6 +56,16 @@
   display: none;
 }
 
+.direct-founded-account__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  justify-content: center;
+
+  margin-top: 38px;
+}
+
 @media screen and (max-width: 768px) {
   .direct-founded-account__wrapper--typography {
     padding: 6% 5%;
@@ -71,7 +83,7 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     gap: 30px;
   }
 }
@@ -94,6 +106,15 @@
   .direct-founded-account__heading {
     font-size: var(--heading-3);
   }
-} /* .direct-founded-account__wrapper--typography {
+}
+
+@media screen and (max-width: 425px) {
+  .direct-founded-account__buttons {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+
+/* .direct-founded-account__wrapper--typography {
     padding: 20% 6%;
 } */
