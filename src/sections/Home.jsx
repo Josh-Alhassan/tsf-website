@@ -7,6 +7,7 @@ import TeamOfTraders from "./TeamOfTraders";
 import ModelPricing from "./ModelPricing";
 import HowItWorks from "./HowItWorks";
 import Faq from "./Faq";
+import GlobalCommunities from "./GlobalCommunities";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <ModelPricing />
       <HowItWorks />
       <Faq />
+      <GlobalCommunities />
     </div>
   );
 }
