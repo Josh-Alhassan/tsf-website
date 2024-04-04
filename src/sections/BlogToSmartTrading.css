@@ -32,3 +32,23 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .blog-trading__typography--heading {
+    font-size: var(--heading-2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .blog-trading__typography--heading {
+    font-size: var(--heading-3);
+  }
+
+  .blog-trading__typography--paragraph {
+    font-size: var(--paragraph-2);
+  }
+
+  .blog-trading__typography {
+    margin-bottom: 50px;
+  }
+}
