@@ -1,0 +1,26 @@
+.currency-btn-alt {
+  display: flex;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  font-size: 14px;
+
+  border-radius: 62px;
+  background: #202932;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.currency-btn-alt:hover {
+  background: var(--primary-500);
+}
+
+@media screen and (max-width: 496px) {
+  .currency-btn-alt {
+    font-size: var(--paragraph-3);
+  }
+}

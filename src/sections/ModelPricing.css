@@ -80,6 +80,63 @@
   background-color: #0076fc;
 }
 
+/* MODEL PRICING */
+.model-pricing__tiers {
+  padding-top: 122px;
+  padding-bottom: 100px;
+}
+
+.currency__card,
+.currency-fund-account {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 47px;
+}
+
+.currency__card--title,
+.currency-fund-account__title {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.currency__card--currencies,
+.currency-fund-account__amount {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.currency {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  /* margin: 10px; */
+}
+
+.model__plans {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.model__plan {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 189%;
+
+  width: 162px;
+  height: auto;
+  padding: 20px 20px;
+
+  border-radius: 8px;
+  background: #202932;
+}
+
 @media screen and (max-width: 1095px) {
   .model-pricing__menu {
     padding: 15px 20px;
@@ -124,6 +181,15 @@
   }
   .model-pricing__section {
     padding-top: 0;
+  }
+
+  .model-pricing__tiers {
+    padding-top: 55px;
+    padding-bottom: 30px;
+  }
+
+  .model__plan {
+    font-size: var(--paragraph-3);
   }
 }
 

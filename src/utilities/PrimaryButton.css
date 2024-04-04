@@ -1,5 +1,5 @@
 .tsf-typography__cta {
-  /* width: 135px; */
+  width: auto;
 
   text-decoration: none;
   color: var(--primary-50);

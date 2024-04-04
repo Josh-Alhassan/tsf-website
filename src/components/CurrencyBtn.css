@@ -1,0 +1,24 @@
+.currency-btn {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 62px;
+  background: var(--primary-500);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  text-edge: cap;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 496px) {
+  .currency-btn {
+    font-size: var(--paragraph-3);
+  }
+}

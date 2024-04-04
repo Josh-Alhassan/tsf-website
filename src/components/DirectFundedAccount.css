@@ -99,6 +99,9 @@
 }
 
 @media screen and (max-width: 489px) {
+  .direct-founded-account__container {
+    padding-top: 84px;
+  }
   .direct-founded-account__wrapper--typography {
     padding: 20% 6%;
   }
