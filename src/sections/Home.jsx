@@ -8,6 +8,7 @@ import ModelPricing from "./ModelPricing";
 import HowItWorks from "./HowItWorks";
 import Faq from "./Faq";
 import GlobalCommunities from "./GlobalCommunities";
+import BlogToSmartTrading from "./BlogToSmartTrading";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <HowItWorks />
       <Faq />
       <GlobalCommunities />
+      <BlogToSmartTrading />
     </div>
   );
 }
