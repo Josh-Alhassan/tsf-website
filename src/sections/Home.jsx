@@ -5,6 +5,7 @@ import TradersChooseUs from "./TradersChooseUs";
 import WhatIsTSF from "./WhatIsTSF";
 import TeamOfTraders from "./TeamOfTraders";
 import ModelPricing from "./ModelPricing";
+import HowItWorks from "./HowItWorks";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <WhatIsTSF />
       <TeamOfTraders />
       <ModelPricing />
+      <HowItWorks />
     </div>
   );
 }
