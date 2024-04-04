@@ -6,6 +6,7 @@ import WhatIsTSF from "./WhatIsTSF";
 import TeamOfTraders from "./TeamOfTraders";
 import ModelPricing from "./ModelPricing";
 import HowItWorks from "./HowItWorks";
+import Faq from "./Faq";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <TeamOfTraders />
       <ModelPricing />
       <HowItWorks />
+      <Faq />
     </div>
   );
 }
