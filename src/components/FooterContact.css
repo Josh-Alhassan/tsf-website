@@ -1,0 +1,35 @@
+.footer__contact-title {
+  font-size: var(--heading-3);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+
+  margin-bottom: 20px;
+}
+
+.footer__contact-email,
+.footer__contact-live-chat {
+  display: flex;
+  gap: 12px;
+}
+
+.footer__contact-email {
+  margin-bottom: 12px;
+}
+
+.footer__contact-email--text,
+.footer__contact-live-chat--text {
+  font-size: var(--paragraph-2);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  margin-top: 20px;
+}

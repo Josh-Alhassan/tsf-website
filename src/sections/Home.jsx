@@ -9,6 +9,7 @@ import HowItWorks from "./HowItWorks";
 import Faq from "./Faq";
 import GlobalCommunities from "./GlobalCommunities";
 import BlogToSmartTrading from "./BlogToSmartTrading";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <Faq />
       <GlobalCommunities />
       <BlogToSmartTrading />
+      <Footer />
     </div>
   );
 }

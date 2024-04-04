@@ -16,45 +16,43 @@ function NavItems() {
     <div className="nav-items">
       <img className="tsf-logo" src={Logo} alt="TSF Brand" />
 
-      <nav className="nav-menus">
-        <ul>
-          <li className="nav-menu">
-            <a href="#" className="nav-menu__link">
-              Home
-            </a>
-          </li>
-          <li className="nav-menu">
-            <a href="#" className="nav-menu__link">
-              Procedures
-            </a>
-          </li>
-          <li className="nav-menu">
-            <a href="#" className="nav-menu__link">
-              Model
-            </a>
-          </li>
-          <li className="nav-menu">
-            <a href="#" className="nav-menu__link">
-              Blog
-            </a>
-          </li>
-          <li className="nav-menu">
-            <a href="#" className="nav-menu__link">
-              Funded Trader
-            </a>
-          </li>
-          <li className="nav-menu">
-            <a href="#" className="nav-menu__link">
-              About Us
-            </a>
-          </li>
-          <li className="nav-menu">
-            <a href="#" className="nav-menu__link">
-              FAQ
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <ul className="nav-menu-container">
+        <li className="nav-menu">
+          <a href="#" className="nav-menu__link">
+            Home
+          </a>
+        </li>
+        <li className="nav-menu">
+          <a href="#" className="nav-menu__link">
+            Procedures
+          </a>
+        </li>
+        <li className="nav-menu">
+          <a href="#" className="nav-menu__link">
+            Model
+          </a>
+        </li>
+        <li className="nav-menu">
+          <a href="#" className="nav-menu__link">
+            Blog
+          </a>
+        </li>
+        <li className="nav-menu">
+          <a href="#" className="nav-menu__link">
+            Funded Trader
+          </a>
+        </li>
+        <li className="nav-menu">
+          <a href="#" className="nav-menu__link">
+            About Us
+          </a>
+        </li>
+        <li className="nav-menu">
+          <a href="#" className="nav-menu__link">
+            FAQ
+          </a>
+        </li>
+      </ul>
       <PrimaryButton
         text={btnLabel}
         svg={

@@ -11,11 +11,8 @@
   align-items: center;
 }
 
-.nav-menus {
+.nav-menu-container {
   border-radius: 47px;
-}
-
-.nav-menus > ul {
   display: flex;
   gap: 32px;
 
@@ -54,14 +51,14 @@
 
 /* Media Queries */
 @media screen and (max-width: 992px) {
-  .nav-menus > ul {
+  .nav-menu-container {
     font-size: var(--paragraph-3);
   }
 }
 
 @media screen and (max-width: 976px) {
-  .nav-menus {
-    display: none;
+  .nav-items {
+    visibility: hidden;
   }
 }
 

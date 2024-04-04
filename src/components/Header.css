@@ -212,7 +212,7 @@
 
   .header__typographies {
     padding-top: 80px;
-    align-items: center;
+    align-items: flex-start;
   }
 
   /* .light-glow {
