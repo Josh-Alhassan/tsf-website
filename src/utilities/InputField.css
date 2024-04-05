@@ -2,7 +2,7 @@ input {
   border-radius: 148px;
   border: 1px solid #335eb1;
   background: transparent;
-  width: 370px;
+  width: 100%;
   padding: 15px 25px;
   outline: none;
   color: inherit;
@@ -14,4 +14,10 @@ input::placeholder {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+}
+
+@media screen and (max-width: 425px) {
+  input {
+    padding: 10px 25px;
+  }
 }

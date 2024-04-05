@@ -4,11 +4,12 @@ import "./SignInAccount.css";
 import InputField from "../utilities/InputField";
 import PrimaryButton from "../utilities/PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
+import SubmitButton from "../utilities/SubmitButton";
 
 function SignInAccount() {
   return (
     <div className="sign-in__account-container">
-      <div className="sign-in__account">
+      <form className="sign-in__account">
         {/* Typography */}
         <div className="sign-in__account--typography">
           <h3 className="sign-in__account--title">Sign In to Start Trading</h3>
@@ -27,7 +28,7 @@ function SignInAccount() {
         </div>
 
         {/* Button */}
-        <PrimaryButton
+        <SubmitButton
           text="Log in"
           svg={
             <svg
@@ -44,7 +45,7 @@ function SignInAccount() {
             </svg>
           }
         />
-      </div>
+      </form>
 
       <div className="create__account-wrap">
         <SecondaryButton

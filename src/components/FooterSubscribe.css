@@ -20,6 +20,8 @@
 .footer__subscribe-container {
   position: relative;
 
+  width: 100%;
+
   /* background: orange; */
 
   display: inline-block;
@@ -40,12 +42,14 @@
   outline: none;
   border: none;
 
-  width: 341px;
+  /* display: block; */
+
+  /* width: 100%; */
 }
 
 .subscribe__btn {
   position: absolute;
-  top: 6px;
+  top: 8px;
   right: 5px;
 
   border-radius: 31px;

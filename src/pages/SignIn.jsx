@@ -27,7 +27,7 @@ function SignIn() {
         <SignInAccount />
 
         {/* Out of Page Flow */}
-        <div>
+        <div className="sign-in__out-of-page-flow">
           <img src={lightGlow} alt="Light glow" className="sign-in__img" />
           <img src={image2} alt="Trade matrix" className="sign-in__img--2" />
           <img src={image3} alt="" className="sign-in__img--3" />

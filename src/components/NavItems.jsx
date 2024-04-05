@@ -1,4 +1,5 @@
 import React from "react";
+// import { Link } from "react-router-dom";
 
 import "./NavItems.css";
 
@@ -53,6 +54,7 @@ function NavItems() {
           </a>
         </li>
       </ul>
+
       <PrimaryButton
         text={btnLabel}
         svg={
