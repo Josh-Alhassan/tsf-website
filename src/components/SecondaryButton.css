@@ -17,6 +17,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  color: inherit;
+
+  cursor: pointer;
 }
 
 .secondary-button:hover {

@@ -2,11 +2,11 @@ import React from "react";
 
 import "./SecondaryButton.css";
 
-function SecondaryButton({ text, svg }) {
+function SecondaryButton({ text, svg, url }) {
   return (
-    <div className="secondary-button">
+    <a className="secondary-button" href={url}>
       {text} {svg}
-    </div>
+    </a>
   );
 }
 

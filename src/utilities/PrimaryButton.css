@@ -25,6 +25,8 @@
   font-weight: 700;
   line-height: normal;
 
+  cursor: pointer;
+
   transition: all 0.2 ease-in-out;
 }
 
