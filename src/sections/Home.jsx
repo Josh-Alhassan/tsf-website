@@ -26,7 +26,6 @@ function Home() {
       <GlobalCommunities />
       <BlogToSmartTrading />
       <Footer />
-      {/* <ForgetPassword /> */}
     </div>
   );
 }

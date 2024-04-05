@@ -1,0 +1,99 @@
+.registration__container {
+  /* background-color: orange; */
+  padding-top: 60px;
+  padding-bottom: 118px;
+}
+
+.registration__typography {
+  /* background-color: orangered; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 51px;
+}
+
+.registration__typography--paragraph {
+  font-size: var(--paragraph-1);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 168%;
+}
+
+.registration__link {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 168%;
+  text-decoration-line: underline;
+}
+
+.registration__form {
+  padding: 60px 80px;
+  border-radius: 16px;
+  background: rgba(12, 12, 30, 0.44);
+  backdrop-filter: blur(7.599999904632568px);
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 81px;
+}
+
+.registration__input--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 41px;
+}
+
+.registration__policies {
+  /* background-color: yellowgreen; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.registration__terms-condition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+
+.registration__agreement-text {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-size: var(--paragraph-2);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 18.2px */
+  letter-spacing: -0.26px;
+}
+
+.agreement-text--alt {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.registration__copyright {
+  color: rgba(255, 255, 255, 0.6);
+  /* text-align: center; */
+  leading-trim: both;
+  text-edge: cap;
+  font-size: var(--paragraph-2);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 18.2px */
+  letter-spacing: -0.26px;
+
+  margin-top: 12px;
+}

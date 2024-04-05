@@ -4,6 +4,7 @@ import "./SignInAccount.css";
 import InputField from "../utilities/InputField";
 import SecondaryButton from "./SecondaryButton";
 import SubmitButton from "../utilities/SubmitButton";
+import { Link } from "react-router-dom";
 
 function SignInAccount() {
   return (
@@ -21,9 +22,13 @@ function SignInAccount() {
         <div className="sign-in__account--form">
           <InputField type="text" placeholder="Username" />
           <InputField type="password" placeholder="password" />
-          <a href="#" className="sigin-in__account--forgot-password">
+
+          <Link
+            className="sigin-in__account--forgot-password"
+            to="/forgetpassword"
+          >
             Forget Password
-          </a>
+          </Link>
         </div>
 
         {/* Button */}
