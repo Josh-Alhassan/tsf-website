@@ -19,8 +19,8 @@ function SignInAccount() {
 
         {/* SIgn-in Input */}
         <div className="sign-in__account--form">
-          <InputField />
-          <InputField />
+          <InputField type="text" placeholder="Username" />
+          <InputField type="password" placeholder="password" />
           <a href="#" className="sigin-in__account--forgot-password">
             Forget Password
           </a>
