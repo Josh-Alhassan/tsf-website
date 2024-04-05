@@ -2,7 +2,6 @@ import React from "react";
 
 import "./SignInAccount.css";
 import InputField from "../utilities/InputField";
-import PrimaryButton from "../utilities/PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
 import SubmitButton from "../utilities/SubmitButton";
 

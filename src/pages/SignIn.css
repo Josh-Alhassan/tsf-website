@@ -90,9 +90,9 @@
     font-size: var(--display-2);
   }
 
-  .sign-in__out-of-page-flow {
+  /* .sign-in__out-of-page-flow {
     display: none;
-  }
+  } */
 }
 
 @media screen and (max-width: 570px) {

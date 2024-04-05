@@ -1,0 +1,35 @@
+.sign-in__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateZ(-90deg) translate(0%, -128%);
+  z-index: -10;
+  opacity: 0.8;
+}
+
+.sign-in__img--2 {
+  /* width: 100%; */
+  position: absolute;
+  z-index: -100;
+  opacity: 0.2;
+  top: 50%;
+  left: 50%;
+  transform: translate(40%, -69%);
+
+  display: none;
+}
+
+.sign-in__img--3 {
+  position: absolute;
+  z-index: -100;
+  opacity: 0.7;
+  top: 100px;
+  left: 0;
+  transform: translate(-36%, 50%);
+}
+
+@media screen and (max-width: 768px) {
+  .sign-in__out-of-page-flow {
+    display: none;
+  }
+}
