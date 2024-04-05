@@ -32,9 +32,15 @@
   border: 1.5px solid var(--Blue-Gradient, #0076fc);
 }
 
+@media screen and (max-width: 907px) {
+  .primary__submit-btn {
+    padding: 15px;
+    font-size: var(--paragraph-2);
+  }
+}
+
 @media screen and (max-width: 570px) {
   .primary__submit-btn {
-    font-size: var(--paragraph-1);
-    padding: 15px;
+    font-size: var(--paragraph-2);
   }
 }

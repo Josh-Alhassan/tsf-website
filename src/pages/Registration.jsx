@@ -29,7 +29,7 @@ function Registration() {
             <InputField type="text" placeholder="firstname" />
             <InputField type="text" placeholder="lastname" />
             <InputField type="text" placeholder="username" />
-            <InputField type="text" placeholder="Email Address" />
+            <InputField type="email" placeholder="Email Address" />
             <InputField type="text" placeholder="Country" />
             <InputField type="text" placeholder="Phone" />
             <InputField type="password" placeholder="Password" />

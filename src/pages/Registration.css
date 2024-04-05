@@ -46,7 +46,11 @@
 .registration__input--grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /*  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); Responsive columns */
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
   gap: 41px;
 }
 
@@ -86,7 +90,7 @@
 
 .registration__copyright {
   color: rgba(255, 255, 255, 0.6);
-  /* text-align: center; */
+  text-align: center;
   leading-trim: both;
   text-edge: cap;
   font-size: var(--paragraph-2);
@@ -97,3 +101,53 @@
 
   margin-top: 12px;
 }
+
+/* Media query for smaller screens */
+
+@media screen and (max-width: 907px) {
+  .registration__form {
+    padding: 60px 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .registration__form {
+    width: 90%;
+  }
+  .registration__input--grid {
+    grid-template-columns: repeat(
+      1,
+      1fr
+    ); /* Change to 1 column for smaller screens */
+  }
+}
+
+@media screen and (max-width: 617px) {
+  .registration__form {
+    width: 100%;
+    padding: 30px 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .registration__typography--heading {
+    font-size: var(--heading-2);
+  }
+
+  .registration__typography--paragraph {
+    font-size: var(--paragraph-2);
+  }
+
+  .registration__terms-condition {
+    align-items: flex-start;
+  }
+
+  .registration__agreement-text {
+    font-size: var(--paragraph-2);
+  }
+
+  .registration__copyright {
+    font-size: var(--paragraph-2);
+  }
+}
+
+/* 617 */
