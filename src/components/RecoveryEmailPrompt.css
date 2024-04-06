@@ -1,5 +1,5 @@
 .recovery-email-prompt {
-  width: 579px;
+  width: 45%;
   padding: 60px;
 
   display: flex;
@@ -57,3 +57,48 @@
 
   cursor: pointer;
 } */
+
+/* 944 */
+@media screen and (max-width: 944px) {
+  .recovery-email-prompt {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 814px) {
+  .recovery-email-paragraph {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 773px) {
+  .recovery-email-prompt {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  .recovery-email-heading {
+    font-size: var(--heading-2);
+  }
+
+  .recovery-email-paragraph {
+    font-size: var(--paragraph-2);
+  }
+}
+
+@media screen and (max-width: 563px) {
+  .recovery-email-prompt {
+    width: 80%;
+  }
+
+  .recovery-email-paragraph {
+    width: 91%;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .recovery-email-prompt {
+    padding: 60px 30px;
+  }
+}
