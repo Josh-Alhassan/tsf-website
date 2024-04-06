@@ -6,6 +6,7 @@ import Home from "./sections/Home";
 import ForgetPassword from "./pages/ForgetPassword";
 import Registration from "./pages/Registration";
 import RecoveryEmailPrompt from "./components/RecoveryEmailPrompt";
+import BlogPage from "./pages/BlogPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/forgetpassword" element={<ForgetPassword />} />
         <Route path="/register" element={<Registration />} />
         <Route path="/recover-email" element={<RecoveryEmailPrompt />} />
+        <Route path="/blog-page" element={<BlogPage />} />
       </Routes>
     </div>
   );

@@ -1,5 +1,5 @@
 .sign-in__img {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   transform: rotateZ(-90deg) translate(0%, -128%);
@@ -9,7 +9,7 @@
 
 .sign-in__img--2 {
   /* width: 100%; */
-  position: absolute;
+  position: fixed;
   z-index: -100;
   opacity: 0.2;
   top: 50%;
@@ -20,7 +20,7 @@
 }
 
 .sign-in__img--3 {
-  position: absolute;
+  position: fixed;
   z-index: -100;
   opacity: 0.7;
   top: 100px;
