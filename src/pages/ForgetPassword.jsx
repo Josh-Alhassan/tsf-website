@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import NavItems from "../components/NavItems";
 
 import "./ForgetPassword.css";
@@ -6,8 +8,22 @@ import FlowOfPage from "../components/FlowOfPage";
 import Footer from "../sections/Footer";
 import InputField from "../utilities/InputField";
 import SubmitButton from "../utilities/SubmitButton";
+import RecoveryEmailPrompt from "../components/RecoveryEmailPrompt";
+import { Link } from "react-router-dom";
 
 function ForgetPassword() {
+  // const [showPrompt, setShowPrompt] = useState(false);
+
+  const navigate = useNavigate();
+  const handleSendEmail = (e) => {
+    // Code to send recovery email
+    // Navigate to the recovery page
+    navigate("/recover-email");
+  };
+
+  // const handleClosePrompt = () => {
+  //   setShowPrompt(false);
+  // };
   return (
     <div>
       <NavItems />
@@ -27,7 +43,8 @@ function ForgetPassword() {
             <InputField type="email" placeholder="test@test.com" />
           </div>
           <SubmitButton
-            text="Log in"
+            onClickFunc={handleSendEmail}
+            text="Recover Email"
             svg={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +60,15 @@ function ForgetPassword() {
               </svg>
             }
           />
+
+          {/* {showPrompt && (
+            <Link to="/recoveremail">
+              <RecoveryEmailPrompt onClose={handleClosePrompt} />
+            </Link>
+          )} */}
         </form>
       </div>
+      {/* <RecoveryEmailPrompt /> */}
 
       <FlowOfPage />
       <Footer />
