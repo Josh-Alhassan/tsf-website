@@ -1,9 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./BlogCard.css";
 import SecondaryButton from "../components/SecondaryButton";
 
 function BlogCard({ image, title, description }) {
+  const navigate = useNavigate();
+
+  const handleSendEmail = () => {
+    // Code to send recovery email
+    // Navigate to the recovery page
+    navigate("/blog-article");
+  };
   return (
     <div className="blog-card">
       <img src={image} alt="Blog blob" className="blog-card__img" />
@@ -28,6 +36,7 @@ function BlogCard({ image, title, description }) {
             />
           </svg>
         }
+        onClickFunc={handleSendEmail}
       />
     </div>
   );

@@ -23,9 +23,9 @@ function NavItems() {
 
       <ul className="nav-menu-container">
         <li className="nav-menu">
-          <a href="#" className="nav-menu__link">
+          <Link to="/" className="nav-menu__link">
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav-menu">
           <a href="#" className="nav-menu__link">
@@ -38,9 +38,9 @@ function NavItems() {
           </a>
         </li>
         <li className="nav-menu">
-          <a href="#" className="nav-menu__link">
+          <Link to="/blog-page" className="nav-menu__link">
             Blog
-          </a>
+          </Link>
         </li>
         <li className="nav-menu">
           <a href="#" className="nav-menu__link">
