@@ -9,7 +9,7 @@ import "./HowItWorks.css";
 
 function HowItWorks() {
   return (
-    <div className="how-it-works section__padding">
+    <div className="how-it-works section__padding" id="procedure">
       <h2 className="how-it-works__heading">How This Works</h2>
 
       <img

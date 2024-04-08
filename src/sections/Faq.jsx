@@ -6,7 +6,7 @@ import FAQSection from "../components/FAQcomponent";
 
 const Faq = () => {
   return (
-    <div className="section__padding faq__section">
+    <div className="section__padding faq__section" id="faq">
       <h2 className="faq__section--heading">Frequently Asked Questions</h2>
 
       <div className="faq__section--menu">

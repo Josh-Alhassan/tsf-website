@@ -321,7 +321,7 @@ function ModelPricing() {
     </svg>
   );
   return (
-    <div className="section__padding model-pricing__section">
+    <div className="section__padding model-pricing__section" id="model">
       <div className="model-pricing__typography">
         <h2 className="model-pricing__typography--heading">
           Our Models & Pricing
