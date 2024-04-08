@@ -10,7 +10,7 @@ import Faq from "./Faq";
 import GlobalCommunities from "./GlobalCommunities";
 import BlogToSmartTrading from "./BlogToSmartTrading";
 import Footer from "./Footer";
-import ForgetPassword from "../pages/ForgetPassword";
+// import ForgetPassword from "../pages/ForgetPassword";
 
 function Home() {
   return (
