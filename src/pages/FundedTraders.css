@@ -1,0 +1,44 @@
+.funded-trader__section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.funded-traders__grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(267px, 1fr)); */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  gap: 21px;
+  justify-content: center;
+}
+
+.funded-trader__img {
+  width: 100%;
+  height: auto;
+
+  transition: transform 0.2s ease-in;
+}
+
+.funded-trader__img:hover {
+  transform: scale(1.1);
+}
+
+.load-more-info {
+  margin: 94px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 769px) {
+  .funded-traders__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .funded-traders__grid {
+    grid-template-columns: 1fr;
+  }
+}

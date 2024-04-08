@@ -48,9 +48,9 @@ function NavItems() {
           </a>
         </li>
         <li className="nav-menu">
-          <a href="#" className="nav-menu__link">
+          <Link to="/aboutus" className="nav-menu__link">
             About Us
-          </a>
+          </Link>
         </li>
         <li className="nav-menu">
           <a href="#" className="nav-menu__link">
