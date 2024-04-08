@@ -5,6 +5,7 @@ import Footer from "../sections/Footer";
 import FlowOfPage from "../components/FlowOfPage";
 import TraderSupportFunds from "../utilities/TraderSupportFunds";
 import TraderSkewed from "../utilities/TraderSkewed";
+import SectionTitle from "../utilities/SectionTitle";
 
 function AboutPage() {
   return (
@@ -13,13 +14,11 @@ function AboutPage() {
 
       <div className="section__padding about-tsf__section">
         <div className="about-tsf-centered">
-          <div className="about-tsf-header">
-            <h1 className="about-tsf__heading">About TSF</h1>
-            <p className="about-tsf__sub-heading">
-              Dive into the world of intelligent trading with our guided posts
-              and articles
-            </p>
-          </div>
+          <SectionTitle
+            title="About TSF"
+            description="Dive into the world of intelligent trading with our guided posts and
+        articles"
+          />
 
           <p className="about-tsf__paragraph">
             TSF is a platform designed for traders to take their trading career
