@@ -391,15 +391,34 @@ function ModelPricing() {
         </div>
 
         <div className="model__plans">
-          <div className="model__plan">Min Trading Days 5 Days</div>
-          <div className="model__plan">Min Trading Days Unlimited</div>
-          <div className="model__plan">Daily Drawdown 5 $4000</div>
-          <div className="model__plan">Max Drawdown $8000</div>
-          <div className="model__plan">Profit Target $2500</div>
-          <div className="model__plan">Account Leverage 1:100</div>
-          <div className="model__plan">Profit Split 55/45</div>
-          <div className="model__plan">Non Refundable Fee $2100</div>
-          <div className="model__plan">Terms & Conditions RTP</div>
+          <div className="model__plan">
+            Min Trading Days <span className="model__plan-span">5 Days</span>
+          </div>
+          <div className="model__plan">
+            Min Trading Days <span className="model__plan-span">Unlimited</span>
+          </div>
+          <div className="model__plan">
+            Daily Drawdown 5 <span className="model__plan-span">$4000</span>{" "}
+          </div>
+          <div className="model__plan">
+            Max Drawdown <span className="model__plan-span">$8000</span>
+          </div>
+          <div className="model__plan">
+            Profit Target <span className="model__plan-span">$2500</span>
+          </div>
+          <div className="model__plan">
+            Account Leverage <span className="model__plan-span">1:100</span>
+          </div>
+          <div className="model__plan">
+            Profit <span className="model__plan-span">Split 55/45</span>{" "}
+          </div>
+          <div className="model__plan">
+            Non Refundable
+            <span className="model__plan-span">Fee $2100</span>
+          </div>
+          <div className="model__plan">
+            Terms & Conditions <span className="model__plan-span">RTP</span>
+          </div>
         </div>
       </div>
 

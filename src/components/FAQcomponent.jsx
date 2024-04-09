@@ -36,9 +36,9 @@ const FAQSection = () => {
   };
 
   return (
-    <div>
+    <div className="faq__section">
       {faqData.map((item, index) => (
-        <div key={index}>
+        <div key={index} className="faq__component">
           <div
             onClick={() => toggleAnswer(index)}
             className="faq__component--question"

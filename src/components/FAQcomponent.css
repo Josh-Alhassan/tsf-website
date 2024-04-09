@@ -32,6 +32,10 @@
   font-size: var(--paragraph-1);
 }
 
+.faq__component {
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .faq__component--question {
     padding: 15px 30px;

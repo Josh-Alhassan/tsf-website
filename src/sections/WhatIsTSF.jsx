@@ -13,7 +13,7 @@ import PrimaryButton from "../utilities/PrimaryButton";
 const WhatIsTSF = () => {
   return (
     <>
-      <div className="what-is-tsf__container section__padding">
+      <div className="what-is-tsf__container section__padding animate__fadeInUp">
         {/* Typography Wrap */}
         <div className="what-is-tsf__typography">
           <h2 className="tsf-typography__heading">What is TSF?</h2>
@@ -52,7 +52,7 @@ const WhatIsTSF = () => {
         <img
           src={manipulated}
           alt="Manipulate TSF"
-          className="what-is-tsf__img"
+          className="what-is-tsf__img animate__animated animate__bounce animate__delay-5s	5s"
         />
       </div>
 
@@ -60,7 +60,7 @@ const WhatIsTSF = () => {
       <div className="tsf-img tsf-out-of-flow">
         <img src={image2} alt="" className="tsf-img-2" />
         <img src={image6} alt="" className="tsf-img-6" />
-        <img src={image5} alt="" className="tsf-img-5" />
+        {/* <img src={image5} alt="" className="tsf-img-5" /> */}
       </div>
     </>
   );

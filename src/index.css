@@ -58,6 +58,11 @@ code {
   --paragraph-3: 10px;
 }
 
+a {
+  color: var(--primary-50);
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }

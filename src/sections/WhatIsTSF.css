@@ -3,8 +3,8 @@
   padding-bottom: 166px;
 
   display: flex;
-  align-items: center;
-  /* justify-content: ; */
+  align-items: flex-start;
+  justify-content: space-evenly;
   gap: 160px;
 }
 
@@ -13,6 +13,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+
+  width: 45%;
 }
 
 .tsf-typography__heading {
@@ -55,7 +57,7 @@
   position: absolute;
   top: 0;
   left: 100px;
-  transform: translate(115%, -115%);
+  transform: translate(160%, -120%);
   z-index: -10;
   opacity: 0.9;
 }

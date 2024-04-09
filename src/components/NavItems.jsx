@@ -28,12 +28,12 @@ function NavItems() {
           </Link>
         </li>
         <li className="nav-menu">
-          <a href="#procedure" className="nav-menu__link">
+          <a href="/#procedure" className="nav-menu__link">
             Procedures
           </a>
         </li>
         <li className="nav-menu">
-          <a href="#model" className="nav-menu__link">
+          <a href="/#model" className="nav-menu__link">
             Model
           </a>
         </li>
@@ -53,7 +53,7 @@ function NavItems() {
           </Link>
         </li>
         <li className="nav-menu">
-          <a href="#faq" className="nav-menu__link">
+          <a href="/#faq" className="nav-menu__link">
             FAQ
           </a>
         </li>

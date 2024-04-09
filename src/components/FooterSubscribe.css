@@ -29,8 +29,7 @@
 
 .subscribe__input {
   color: #5b5e71;
-  /* font-family: "Plus Jakarta Sans"; */
-  font-size: 13px;
+  font-size: var(--paragraph-3);
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 184.615% */
@@ -75,6 +74,6 @@
 
 .subscribe__input-icon {
   position: absolute;
-  top: 10px;
+  top: 8px;
   left: 15px;
 }

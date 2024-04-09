@@ -23,15 +23,16 @@
 }
 
 .header__heading {
-  font-size: var(--display-1);
+  font-size: 79px;
   font-weight: 700;
   line-height: 108%; /* 65.88px */
   letter-spacing: -1.22px;
+  /* width: 500px; */
 }
 
 .header__paragraph {
   font-size: var(--paragraph-1);
-  width: 92%;
+  width: 70%;
   /* text-align: justify; */
 
   font-weight: 500;
@@ -54,8 +55,8 @@
   /* background-color: orange; */
   margin: 0 auto;
 
-  border-top: 1px solid var(--border-line-color);
-  border-bottom: 1px solid var(--border-line-color);
+  /* border-top: 1px solid var(--border-line-color);
+  border-bottom: 1px solid var(--border-line-color); */
   padding: 50px 70px;
 
   display: flex;
