@@ -133,9 +133,14 @@
     flex-direction: column;
   }
 
+  .what-is-tsf__typography {
+    width: 100%;
+  }
+
   .what-is-tsf__img {
     width: 400px;
     height: 350px;
+    margin: 0 auto;
   }
 
   .tsf-img-6 {

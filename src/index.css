@@ -39,10 +39,10 @@ code {
   --primary-600: #005fcc;
   --primary-700: #004799;
   --primary-800: #002f66;
-  --primary-900: #001833;
+  --primary-900: rgb(0, 24, 51);
 
   --box-border--border: linear-gradient(#050517, #0076fc, #102595, #050517);
-  --border-line-color: #4c4c63;
+  --border-line-color: rgb(76, 76, 99);
   --traders-choose-us: #020212;
   --gradient-color: #282c60;
 

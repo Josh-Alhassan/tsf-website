@@ -26,6 +26,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .faq__section {
+    padding-bottom: 20px;
+  }
   .faq__section--heading {
     font-size: var(--heading-1);
   }
@@ -38,7 +41,7 @@
 @media screen and (max-width: 425px) {
   .faq__section {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
 
   .faq__section--component {

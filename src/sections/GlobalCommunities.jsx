@@ -1,6 +1,6 @@
 import React from "react";
 import PrimaryButton from "../utilities/PrimaryButton";
-import "./TeamOfTraders";
+import "./TeamOfTraders.css";
 
 function GlobalCommunities() {
   return (
