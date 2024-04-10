@@ -7,10 +7,10 @@ function FooterTrade() {
     <div>
       <h3 className="footer__trade-title">Trading</h3>
 
-      <ul className="footer__trade-lists">
+      <div className="footer__trade-lists">
         <li className="footer__trade-list">Cookies Policy</li>
         <li className="footer__trade-list">Risk Disclosure</li>
-      </ul>
+      </div>
     </div>
   );
 }

@@ -67,6 +67,10 @@ ul {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
+
 .section__padding {
   padding: 0 100px;
 }
